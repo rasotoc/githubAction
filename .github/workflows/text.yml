@@ -19,4 +19,14 @@ jobs:
         import platform
         print(platform.processor())
       shell: python
+  build-on-window:
+    name: my2 jobs
+    runs-on: windows-latest
+    steps:
+      - name: Directory Powershell
+        run: Get-Location
+      - name: Directory Bash
+        run: pwd
+        shell: bash
+
 
