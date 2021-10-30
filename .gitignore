@@ -1,1 +1,2 @@
-.txt
+# exclude everything except directory foo/bar
+*.txt
