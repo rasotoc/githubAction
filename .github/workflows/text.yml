@@ -10,3 +10,7 @@ jobs:
     - name: Print a greeting
       run: |
         echo Hello there!
+    - name: multiline script
+      run: |
+        node -v
+        npm  -v
