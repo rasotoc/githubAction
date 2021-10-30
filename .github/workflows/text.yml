@@ -22,6 +22,7 @@ jobs:
   build-on-window:
     name: my2 jobs
     runs-on: windows-latest
+    needs: [my-job]
     steps:
       - name: Directory Powershell
         run: Get-Location
