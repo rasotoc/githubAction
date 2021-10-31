@@ -7,6 +7,10 @@ jobs:
     name: My Job3
     runs-on: ubuntu-latest
     steps:
+      - name: List File
+        run: |
+          pwd
+          ls 
       - name: simple JS Action
         id: greet
         uses: actions/hello-world-javascript-action@v1
